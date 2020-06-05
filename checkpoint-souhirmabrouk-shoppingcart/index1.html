@@ -1,0 +1,218 @@
+<!DOCTYPE html>cartAndProducts
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Sweet Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--javascript -->
+    <script src="myscript.js" async></script>
+    <!--Font awsome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--the navbar-->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/log2.png" alt="Mylogo" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!--end of navbar-->
+    <!--hero-->
+    <header class="hero">
+      <div>
+        <img id="bk" src="images/homesweethome1.jpg" alt="bck" />
+      </div>
+      <div class="banner">
+        <h1 class="banner-title">Pillow collection</h1>
+      </div>
+    </header>
+    <!--end of the hero-->
+    <div id="cartAndProducts">
+      <!--Products-->
+      <section class="products">
+        <div class="section-title">
+          <h2>Our products</h2>
+        </div>
+        <div class="products-center">
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/beautiful-angels-cushion-cover-500x500.jpg"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="1">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>angels cushion</h3>
+            <h4>10 DNT</h4>
+          </article>
+          <!--end of single Product-->
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/beautiful_traditional_jacobean_crewel_embroidery_p_throw_pillow.jpg"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="2">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>traditionnel cushion</h3>
+            <h4>20 DNT</h4>
+          </article>
+          <!--end of single Product-->
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/beauty-pillow-small-1.jpg"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="3">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>small cushion</h3>
+            <h4>8 DNT</h4>
+          </article>
+          <!--end of single Product-->
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/pillow_flowers.jpg"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="4">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>flowers cushion</h3>
+            <h4>10 DNT</h4>
+          </article>
+          <!--end of single Product-->
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/pillow_hello_luxe.jpg"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="5">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>hello cushion</h3>
+            <h4>12 DNT</h4>
+          </article>
+          <!--end of single Product-->
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/pillow_horses.jpg"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="6">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>horse cushion</h3>
+            <h4>10 DNT</h4>
+          </article>
+          <!--end of single Product-->
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/pillow_i_am_beautifull.jpg"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="7">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>beautifull me cushion</h3>
+            <h4>11 DNT</h4>
+          </article>
+          <!--end of single Product-->
+          <!-- single Product-->
+          <article class="product">
+            <div class="img-container">
+              <img
+                class="product-img"
+                src="images/pillow_i_love_you.webp"
+                alt="product"
+              />
+              <button class="bag-btn" data-id="8">
+                <i class="fas fa-shopping-cart"></i>
+                add to bag
+              </button>
+            </div>
+            <h3>love you cushion</h3>
+            <h4>10 DNT</h4>
+          </article>
+          <!--end of single Product-->
+        </div>
+      </section>
+      <!--end of products-->
+
+      <!--cart -->
+      <div class="cart-overlay">
+        <div class="cart">
+          <h2>Your Cart</h2>
+          <div class="cart-content">
+            <!--cart items-->
+            <div class="listOfItems">
+              <!--------------------------->
+              <!--end cart items-->
+            </div>
+            <!--cart footer-->
+            <div class="cart-footer">
+              <h3>Your total : <span class="cart-total">0</span></h3>
+              <button class="purshase banner-btn">Purshase</button>
+            </div>
+            <!--end cart footer-->
+          </div>
+        </div>
+      </div>
+      <!--end of cart-->
+    </div>
+  </body>
+
+  <script src="vanilla.js"></script>
+</html>
